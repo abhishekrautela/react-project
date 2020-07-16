@@ -1,0 +1,138 @@
+.jackpot-amount {
+    font-size: 30px;
+}
+
+.jackpot-currency {
+    font-size: 20px;
+    color: #edbc58;
+    font-weight: 800;
+    text-align: center;
+}
+
+/* .jackpot-header {
+    color: #edbc58;
+    font-weight: 800;
+    font-size: 35px;
+    text-transform: uppercase;
+    text-align: center;
+} */
+
+.winner-jackpot-section {
+    width: 100% !important;
+    padding-right: 0;
+    margin: 0 !important;
+    padding: 10px;
+    background: none;
+}
+
+.card {
+    background: #000;
+    max-width:100%;
+}
+.card-body{
+    padding:0 !important;
+}
+
+.card::before {
+    content: '';
+    position: absolute;
+    top: -2px;
+    right: -2px;
+    bottom: -2px;
+    left: -2px;
+    background: #fff;
+    z-index: -1;
+}
+
+.card::after {
+    content: '';
+    position: absolute;
+    top: -2px;
+    right: -2px;
+    bottom: -2px;
+    left: -2px;
+    background: #fff;
+    z-index: -2;
+    filter: blur(20px);
+}
+
+.card::before, .card::after {
+    background: linear-gradient(235deg, #ff0057, #000, #e64a19);
+}
+
+.card-text {
+    color: #fff;
+    font-size: 18px;
+    text-align: center;
+}
+.jackpot-text{
+    color: #edbc58;
+    font-weight: 800;
+}
+
+.card-title {
+    padding: 0;
+    margin: 0;
+    color: #fff;
+    font-size: 1rem;
+}
+
+.card .img-fluid {
+    padding: 0;
+    margin: 0;
+    border: none;
+    max-height: 150px;
+    width: 100%;
+}
+
+.btn-play {
+    color: #edbc58;
+    background: none;
+    border: 2px solid #edbc58;
+    width: 60%;
+    text-transform: uppercase;
+    font-weight: 800;
+    cursor: pointer;
+    transition: 1s all;
+    font-size: 1vw;
+}
+
+.btn-play:hover {
+    background: #edbc58;
+    color: #fff;
+}
+@media only screen and (max-width: 1400px){
+    .card-text{
+        font-size: 12px;
+    }
+    .jackpot-currency {
+        font-size: 13px; 
+    }
+}
+
+@media only screen and (min-width:577px) and (max-width:767px) {
+    .card {
+        max-width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .card-title {
+        font-size: 1rem;
+    }
+    .btn-play {
+        font-size: 15px;
+        width: 95%;
+    }
+}
+
+@media only screen and (max-width:576px) {
+    .card {
+        max-width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .btn-play {
+        font-size: 15px;
+        width: 80%;
+    }
+}

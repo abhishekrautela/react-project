@@ -1,0 +1,232 @@
+.about {
+    color: #fff;
+    text-align: justify;
+}
+.aboutus {
+    text-align: center;
+    color: #edbc58;
+    font-weight: 800;
+    font-size: 36px;
+    text-transform: uppercase;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 50px;
+    /* text-shadow: 2px 2px 2px #1a1814; */
+    width: auto;
+}
+
+.about-block {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 70px 0;
+}
+
+.aboutcontainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-bottom: 40px;
+    margin: 0;
+}
+
+.aboutcontainer .aboutbox {
+    position: relative;
+    flex-basis: 300px;
+    padding: 10px;
+    background: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #000;
+    /* text-align: center; */
+    margin: 20px;
+    box-sizing: border-box;
+    height: 400px;
+}
+
+.aboutcontainer .aboutbox::before {
+    content: '';
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    right: -2px;
+    bottom: -2px;
+    background: #fff;
+    transform: skew(2deg, 2deg);
+    z-index: -10;
+}
+
+.aboutcontainer .aboutbox::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.05);
+    pointer-events: none;
+}
+
+.aboutcontainer .aboutbox:nth-child(1):before {
+    background: linear-gradient(315deg, #ff0057, #e64a19);
+}
+
+.aboutcontainer .aboutbox:nth-child(2):before {
+    background: linear-gradient(315deg, #89ff00, #00bcd4);
+}
+
+.aboutcontainer .aboutbox:nth-child(3):before {
+    background: linear-gradient(315deg, #e91e63, #5d02ff);
+}
+
+.aboutcontainer .aboutbox:nth-child(4):before {
+    background: linear-gradient(315deg, #ff0000, #ffc107);
+}
+
+.aboutcontent {
+    position: relative;
+    padding: 20px;
+}
+
+.aboutbox .aboutcontent h2 {
+    position: absolute;
+    top: -10px;
+    right: 20px;
+    margin: 0;
+    padding: 0;
+    font-size: 10em;
+    color: rgba(255, 255, 255, 0.09);
+    transition: 0.5s;
+}
+
+.aboutbox:hover .aboutcontent h2 {
+    top: -50px;
+}
+
+.aboutbox .aboutcontent h3 {
+    margin: 0 0 10px;
+    padding: 0;
+    font-size: 24px;
+    font-weight: 500;
+    color: #fff;
+}
+
+.aboutbox .aboutcontent p {
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    font-size: 16px;
+}
+
+.aboutbox .aboutcontent a {
+    position: relative;
+    margin: 20px;
+    padding: 10px 20px;
+    text-decoration: none;
+    border: 1px solid #fff;
+    display: inline-block;
+    color: #fff;
+    transition: 0.5s;
+    transform: translateY(-40px);
+    opacity: 0;
+    visibility: hidden;
+}
+
+.aboutbox:hover .aboutcontent a {
+    transform: translateY(0);
+    opacity: 1;
+    visibility: visible;
+}
+
+.aboutbox:hover .aboutcontent a {
+    color: #edbc58;
+    background: none;
+    border: 2px solid #edbc58;
+}
+
+.aboutbox .aboutcontent a:hover {
+    background: #edbc58;
+    color: #fff;
+    border: 2px solid #000;
+}
+
+.counterblock {
+    padding: 30px 0;
+}
+
+.react-counter {
+    width: 100%;
+    color: #fff;
+    height: auto;
+    overflow: hidden;
+}
+
+.num {
+    width: 100%;
+    padding: 0;
+    margin-top: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #edbc58;
+    font-size: 1.5vw;
+    transition: 1s all;
+    overflow: hidden;
+    text-align: center;
+    transition: 1s all;
+}
+
+.counter {
+    position: relative;
+    flex-basis: 100%;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    margin: 20px;
+    box-sizing: border-box;
+    background: none;
+    /* box-shadow: 5px 5px 10px #1f1f1f; */
+}
+
+.counterhead {
+    font-weight: 800;
+    font-size: 30px;
+}
+
+.countericon {
+    font-weight: 900;
+    font-size: 30px;
+}
+
+.num:hover {
+    cursor: pointer;
+    color: #fff;
+}
+
+.custom-count {
+    font-size: 20px;
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1400px) {
+    .aboutcontainer .aboutbox {
+        flex-basis: 250px;
+    }
+}
+
+@media only screen and (min-width: 1055px) and (max-width: 1200px) {
+    .aboutcontainer .aboutbox {
+        flex-basis: 300px;
+        margin-right: 10%;
+        margin-left: 10%;
+    }
+}
+
+@media only screen and (max-width: 715px) {
+    .aboutcontainer .aboutbox {
+        flex-basis: 300px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+}

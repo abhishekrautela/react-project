@@ -1,0 +1,73 @@
+.navbar-fixed-top{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    width: 100%;
+    margin-left: 0;
+    padding: 0;
+    border: 0;
+} 
+.user-auth{
+    background:rgba(31, 31, 31, 0.8);
+    border: 1px hidden;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    font-size: 20px;
+    box-shadow: 5px 8px 10px #edbc58;
+    color: #000 !important;
+}
+.twitter,.googlep{
+    visibility: hidden;
+}
+.navbar-fixed-top.scrolled {
+    background: rgba(0, 0, 0, 0.85);
+    transition: background-color 200ms linear;
+}
+.navbar-fixed-top.scrolled .user-auth{
+    background: none;
+    box-shadow: none;
+}
+  #nav-links{
+      color: #edbc58;
+  }
+  .brandlogo{
+      padding: 0;
+  }
+  @media only screen and (max-width:767px) {
+    #navbarCollapse3{
+        background-color: #000;
+    }
+    .brandlogo{
+        display: none;
+    }
+    .twitter{
+        display: none;
+    }
+    .googlep{
+        display: none;
+    }
+    .custom-toggler{
+        border: none !important;
+        color: #edbc58;
+        padding-right: 20px;
+        outline: none;
+    }
+    .user{
+        color: #edbc58;
+        border: none !important;
+    }
+    .custom-toggler:active{
+        border: none !important;
+        outline: none;
+    }
+    .custom-toggler:focus{
+        border: none !important;
+        outline: none;
+    }
+    .nav-exp{
+        background-color: #000;
+    }
+  
+  }
+  

@@ -1,0 +1,50 @@
+.PaymentIconsContainer {
+    background: #2F1833 !important;
+    padding: 30px 0;
+    text-align: center;
+    cursor: pointer;
+    vertical-align: baseline;
+    /* border-bottom-style: solid; */
+    /* border-bottom-color: #edbc58; */
+    /* border-bottom-width: 2px; */
+    width: 100%;
+    margin: 0;
+  
+}
+
+.PaymentIconsContainer .Payment-icon {
+    display: inline-block;
+    margin: 0;
+    padding: 0 5px;
+}
+
+.PaymentIconsContainer img {
+    width: 90px;
+    height: 45px;
+    opacity: .55;
+    vertical-align: middle;
+    border: 0;
+    padding: 0;
+    margin: 0;
+}
+.PaymentIconsContainer img:hover {
+    opacity: 1;
+    filter: invert(1%) sepia(88%) saturate(4526%) hue-rotate(191deg) brightness(101%) contrast(101%);
+}
+
+.payment-methods {
+    max-width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.pm {
+    margin-left: -10px;
+    margin-right: 0px;
+}
+
+.payment-tray {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}

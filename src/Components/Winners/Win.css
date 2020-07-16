@@ -1,0 +1,49 @@
+.winner-header{
+    color: #edbc58;
+    font-weight: 800;
+    font-size: 2vw;
+    text-transform: uppercase;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.winners-block{
+    color: #fff;
+    padding-bottom: 70px;
+    border-top: 2px solid #edbc58;
+    border-bottom: 2px solid #edbc58;
+}
+.winner-amount{
+    color: #edbc58;
+}
+.win-game{
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.win-game:hover{
+    color: #edbc58;
+}
+.winner-data{
+    margin: 0;
+    padding: 0;
+   
+    
+}
+.swiper-wrapper{
+max-width: 100% !important;
+}
+.swiper-wrapper .winner-data{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    max-width: 100% !important;
+    overflow: hidden;
+}
+.winner-data p{
+    padding: 10px 0;
+    margin: 0;
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    /* display: inline-block; */
+}

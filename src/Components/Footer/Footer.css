@@ -1,0 +1,248 @@
+.s-m a {
+  display: flex;
+  width: 40px;
+  height: 40px;
+  color: white;
+  margin: 15px 6px;
+  margin-top: 0;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  transition: 0.4s;
+  font-size: 22px;
+  position: relative;
+  left: 28%;
+  cursor: pointer;
+}
+
+.s-m {
+  padding: 10px 0;
+  align-content: center;
+}
+
+.s-m a:hover {
+  background: #edbc58;
+}
+
+.social-icons .widget-title {
+  text-align: center;
+}
+
+.s-m a i {
+  transition: 0.4s all;
+}
+
+.gap-30 {
+  height: 20px;
+}
+
+.licensing {
+  background: #1A0D1C !important;
+  border-top: 1px solid #37332a;
+  border-bottom: 1px solid #28251f;
+  color: #a9accb;
+  text-align: justify;
+  padding: 30px 10%;
+  font-size: calc(0.7em + 1px);
+  overflow: hidden;
+  padding-bottom: 0;
+}
+.copyright {
+  text-align: center;
+  font-size: calc(0.7em + 1px);
+  color: #a9accb;
+  padding-bottom: 0;
+}
+
+.copyright a {
+  font-size: calc(0.9em + 1px);
+  text-decoration: none;
+  color: #edbc58;
+  font-weight: 400;
+  transition: 0.5s;
+}
+
+.copyright a:hover {
+  text-decoration: none;
+}
+
+.widget-title {
+  color: #424949;
+}
+
+.footer-widget {
+  height: auto;
+  margin: 0;
+  padding: 0;
+}
+
+.primary-data div, .primary-data a {
+  font-size: 13px !important;
+  text-decoration: none;
+}
+
+.primary-data a:hover {
+  text-decoration: none;
+  color: #edbc58;
+}
+
+.footer-social {
+  width: 100%;
+}
+
+.contact-us .widget-title {
+  text-align: left;
+  padding: 0 10px;
+}
+
+.live-casino-footer, .pages {
+  text-align: left;
+}
+
+.widget-data div {
+  padding: 0 10px;
+  overflow: hidden;
+  font-size: 13px !important;
+  
+}
+
+.widget-data div:hover {
+  text-decoration: none;
+}
+
+.live-games {
+  padding: 0;
+  text-align: left;
+}
+
+.live-games .footer-data a {
+  color: #a9accb;
+  font-size: 12px !important;
+  cursor: pointer;
+  /* font-family: 'Times New Roman', Times, serif !important; */
+  font-weight: 300;
+}
+
+.live-games div a:hover {
+  text-decoration: none;
+  color: #edbc58;
+}
+
+.page div a, .contact-email {
+  color: #a9accb;
+  text-decoration: none;
+}
+
+.page div a:hover, .contact-email {
+  text-decoration: underline;
+}
+
+.page {
+  padding: 0;
+  text-align: left;
+}
+
+.pages .page .footer-data a {
+  font-size: 13px !important;
+  /* font-family: 'Times New Roman', Times, serif !important; */
+  cursor: pointer;
+  font-weight: 300;
+}
+
+.page .footer-data a:hover {
+  text-decoration: none;
+  color: #edbc58;
+}
+
+.footer-data {
+  padding-bottom: 10px;
+}
+
+.footer-contact {
+  margin-bottom: 10px;
+}
+
+.footer-data div {
+  top: 0;
+}
+
+@media only screen and (max-width: 1500px) {
+  .licensing {
+    padding: 70px 30px;
+  }
+}
+
+@media only screen and (max-width:900px) {
+  .s-m a {
+    left: 15%;
+  }
+}
+
+@media only screen and (max-width:767px) {
+  .s-m a {
+    margin-top: 0;
+  }
+}
+
+@media only screen and (max-width:576px) {
+  .licensing {
+    padding: 20px;
+  }
+  .s-m a {
+    left: 0%;
+    padding: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    margin-bottom: 0;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .gap-30 {
+    height: 0;
+  }
+  .contact-us .widget-title {
+    padding: 0;
+  }
+  .footer-widget {
+    padding: 5px 0;
+  }
+  .s-m {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0;
+  }
+  .page {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .live-games {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .live-casino-footer .widget-title, .pages .widget-title {
+    text-align: center;
+  }
+  .footer-data {
+    font-size: 2.4vw;
+  }
+  .live-games .footer-data a {
+    font-size: 2.2vw;
+  }
+  .footer-contact {
+    margin-bottom: 5px;
+  }
+  .widget-data div {
+    font-size: 11px;
+  }
+  .widget-title {
+    margin-bottom: 2px;
+  }
+  .primary-data div, .primary-data a {
+    font-size: 11px;
+  }
+}

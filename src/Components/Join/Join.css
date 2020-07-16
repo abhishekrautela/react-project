@@ -1,0 +1,50 @@
+.why-join-title {
+  color: #3b4ef8;
+  font-weight: 800 !important;
+  font-size: 35px !important;
+  text-transform: uppercase;
+  padding-top: 70px;
+  padding-bottom: 30px;
+  text-align: center;
+}
+
+.features {
+  background: url('../../assets/images/backgrounds/142809.jpg') !important;
+  background-size: cover !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+}
+
+.features .content+.content {
+  margin-top: 100px;
+}
+
+.features .content h3 {
+  font-weight: 600;
+  font-size: 26px;
+  color: #000;
+}
+
+.features .content ul {
+  list-style: none;
+  padding: 0;
+}
+.features .content ul li {
+  padding-bottom: 10px;
+  color: #000;
+}
+
+.features .content ul i {
+  font-size: 20px;
+  padding-right: 4px;
+  color: #3b4ef8;
+}
+
+.features .content p:last-child {
+  margin-bottom: 0;
+}
+
+.join-img {
+  border: 1px hidden;
+  border-radius: 50%;
+}

@@ -1,0 +1,96 @@
+.carousel{
+  overflow: hidden;
+  height: 100vh;
+}
+.carousel-slider{
+  height: 100vh !important;
+  width: 100% !important;
+}
+.img-capt1{
+  position: absolute;
+  bottom: 5%;
+right: 85%;
+  z-index: -1;
+}
+.img-capt2{
+  position: absolute;
+  bottom: 5%;
+ left: 85%;
+  z-index: -1;
+}
+.img-capt3{
+  position: absolute;
+  bottom: 5%;
+ right: 55%;
+  z-index: -1;
+}
+.img-capt4{
+  position: absolute;
+  bottom: 5%;
+ left: 85%;
+  z-index: -1;
+}
+.carousel-caption{
+    font-size: 2vw;
+    position: absolute;
+    top: 30%;
+    font-size: 4vw;
+    line-height: 1;
+    color:  #FFD700;
+    display: block;
+    text-transform: uppercase;
+    margin: 0 0 2rem;
+    text-align: center;
+    text-shadow: 0 0 5px #000;
+    font-family: 'Times New Roman', Times, serif !important;
+    font-weight: 700;
+    letter-spacing: .05rem;
+    animation: bounce 1s infinite alternate;
+    -webkit-animation: bounce 1s infinite alternate;
+    height: auto;
+    font-family: 'MyFont' !important;
+}
+.carousel-caption:hover {
+    animation-name: shake;
+    animation-duration: 0.82s;
+    animation-timing-function: cubic-bezier(.36,.07,.19,.97);
+    animation-fill-mode: both;
+    animation-iteration-count: 1;
+    transform: translate3d(0, 0, 0);
+    backface-visibility: hidden;
+    perspective: 1000px;
+  }  
+  @keyframes shake {
+    10%, 90% {
+      transform: translate3d(-1px, 0, 0);
+    }
+    
+    20%, 80% {
+      transform: translate3d(2px, 0, 0);
+    }
+  
+    30%, 50%, 70% {
+      transform: translate3d(-4px, 0, 0);
+    }
+  
+    40%, 60% {
+      transform: translate3d(40px, 0, 0);
+    }
+  }
+  @media only screen and (max-width:800px){
+    .carousel{
+      height: 100%;
+    }
+    .img-capt1{
+      height: 100%;
+    }
+    .img-capt2{
+      height: 100%;
+    }
+    .img-capt3{
+      height: 100%;
+    }
+    .carousel-slider{
+      height: auto !important;
+    }
+  }
