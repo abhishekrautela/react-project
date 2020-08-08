@@ -12,6 +12,8 @@ Type the following command into the Terminal:
 
 create-react-app projectname
 
+Now paste the contents of this project to the project you created(Overwrite the existing files and folders) and hit the following commands.
+
 npm install
 
 npm start
